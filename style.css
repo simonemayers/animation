@@ -3,6 +3,29 @@ body {
     text-align: center;
     background-color: black;
     color: white;
+    animation: pulse 10s 1;
+}
+nav {
+    animation: slidein 5s 1;
+}
+
+@keyframes slidein {
+    from {
+        transform: translateY(-10%);
+      }
+    
+      to {
+        transform: translatey(0%);
+      }
+}
+
+@keyframes pulse{
+   0% {
+       background-color: rgba(0, 0, 0, 0.7);
+   }  
+   100% {
+       background-color: rgba(0, 0, 0, 1);
+   }
 }
 nav li {
     list-style: none;
@@ -49,7 +72,8 @@ main {
     font-size: 1.3em;
 }
 
-ol {
-    /* padding: 0%; */
-    text-align: center;
+textarea {
+    width: 90%;
+    height: 50vh;
 }
+
