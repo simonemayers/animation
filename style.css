@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+nav li {
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+li:hover, a:hover{
+    background-color: teal;
+    /* color: black;  */
+}
+a:hover {
+}
+nav ul {
+    margin: 0%;
+    border: solid 1px teal;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    top: 0px;
+    position:sticky;
+    padding: 0%;
+    height: 95vh;
+}
+nav {
+    width: 100%;
+    font-size: 0.8em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-title{
+    font-weight: 600;
+    background-color: teal;
+    font-size: 1.3em;
+}
+
+ol {
+    /* padding: 0%; */
+    text-align: center;
+}
